@@ -1,0 +1,27 @@
+<div id="sw_canvas">
+  <%=render :partial=>"home/side_space", :locals => {:category => 3}%>
+  <div id="sw_main">
+    <div id="content">
+      <div id="results_area">
+        <div id="results_container">
+          <div class="sb_ph">
+            <h1><strong>谢谢侬!</strong></h1>
+            <span class="sb_count">感谢填写“上海，我爱你” 加入申请</span>
+          </div>
+          <div id="results">
+            <br/>
+            <hr/>
+            <p>谢谢您填写“上海，我爱你” 加入申请，以上收集信息只作“上海，我爱你”电影制组，活动之用，将不用于任何商业用途。根据制作需要，小组将根据您提供的信息尽快和您联系。</p>
+            <p style="font-size:20px;font-weight:bolder;color:gray">再次感谢侬，模子！</p>
+            <br/>
+            <p style="font-weight:bolder;text-align: right">
+              <%= link_to "返回首页>>", :controller=>"home" %>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="sidebar"><%=render :partial=>"home/adv_space"%></div>
+    </div>
+  </div>
+</div>
+

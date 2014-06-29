@@ -1,0 +1,46 @@
+<%= link_to '返回', :action=>"list_posts" %><br>
+<h1>建立文案内容</h1>
+<% form_for :admin, @post, :url=>{:action=>"create_posts"} do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <b>序号:<br /></b>
+    <%= f.text_field :show_num %>
+  </p>
+  <p>
+    <b>文案标题(5-6个中文字符):<br /></b>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <b>文案副标题(10-11个中文字符):<br /></b>
+    <%= f.text_field :subtitle %>
+  </p>
+  <p>
+    <b>边栏标题(4-5个中文字符):<br /></b>
+    <%= f.text_field :sidetitle %>
+  </p>
+  <p>
+    <b>发布者:<br /></b>
+    <%= f.text_field :owner %>
+  </p>
+  <p>
+    <b>文案类别:<br /></b>
+    <%=f.select :category_id,
+      [["小组介绍",1],["视频资料",2],["活动介绍",3]]%>
+  </p>
+  <p>
+    <b>是否发布:<br /></b>
+    是 <%= f.radio_button :to_post, 1 %>
+    &nbsp;否&nbsp; <%= f.radio_button :to_post, 0, :checked=>true %>
+  </p>
+  <p>
+    <b>内容概要:<br /></b>
+    <%= f.text_area :summary %>
+  </p>
+  <p>
+    <b>文案内容:<br /></b>
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.submit '建立文案' %>
+  </p>
+<% end %>

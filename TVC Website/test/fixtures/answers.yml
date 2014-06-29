@@ -1,0 +1,161 @@
+--- 
+answers_012: 
+  updated_at: 2010-02-17 16:47:36
+  answer: 
+  question_id: "7"
+  id: "12"
+  choice_id: "19"
+  user_id: "6"
+  created_at: 2010-02-17 16:47:36
+answers_001: 
+  updated_at: 2010-02-16 12:27:57
+  answer: asdfsd
+  question_id: "1"
+  id: "1"
+  choice_id: "0"
+  user_id: "5"
+  created_at: 2010-02-16 12:27:57
+answers_013: 
+  updated_at: 2010-02-17 16:47:36
+  answer: ""
+  question_id: "9"
+  id: "13"
+  choice_id: "0"
+  user_id: "6"
+  created_at: 2010-02-17 16:47:36
+answers_002: 
+  updated_at: 2010-02-16 12:27:57
+  answer: 
+  question_id: "7"
+  id: "2"
+  choice_id: "19"
+  user_id: "5"
+  created_at: 2010-02-16 12:27:57
+answers_014: 
+  updated_at: 2010-02-17 16:47:36
+  answer: ""
+  question_id: "11"
+  id: "14"
+  choice_id: "0"
+  user_id: "6"
+  created_at: 2010-02-17 16:47:36
+answers_003: 
+  updated_at: 2010-02-16 12:27:57
+  answer: ""
+  question_id: "9"
+  id: "3"
+  choice_id: "0"
+  user_id: "5"
+  created_at: 2010-02-16 12:27:57
+answers_015: 
+  updated_at: 2010-02-17 16:47:36
+  answer: 
+  question_id: "10"
+  id: "15"
+  choice_id: "28"
+  user_id: "6"
+  created_at: 2010-02-17 16:47:36
+answers_004: 
+  updated_at: 2010-02-16 12:27:57
+  answer: ""
+  question_id: "11"
+  id: "4"
+  choice_id: "0"
+  user_id: "5"
+  created_at: 2010-02-16 12:27:57
+answers_016: 
+  updated_at: 2010-02-17 16:47:36
+  answer: ""
+  question_id: "12"
+  id: "16"
+  choice_id: "0"
+  user_id: "6"
+  created_at: 2010-02-17 16:47:36
+answers_005: 
+  updated_at: 2010-02-16 12:27:57
+  answer: 
+  question_id: "10"
+  id: "5"
+  choice_id: "28"
+  user_id: "5"
+  created_at: 2010-02-16 12:27:57
+answers_017: 
+  updated_at: 2010-02-17 16:47:36
+  answer: 
+  question_id: "8"
+  id: "17"
+  choice_id: "22"
+  user_id: "6"
+  created_at: 2010-02-17 16:47:36
+answers_006: 
+  updated_at: 2010-02-16 12:27:57
+  answer: ""
+  question_id: "12"
+  id: "6"
+  choice_id: "0"
+  user_id: "5"
+  created_at: 2010-02-16 12:27:57
+answers_018: 
+  updated_at: 2010-02-17 16:47:36
+  answer: 
+  question_id: "3"
+  id: "18"
+  choice_id: "1"
+  user_id: "6"
+  created_at: 2010-02-17 16:47:36
+answers_007: 
+  updated_at: 2010-02-16 12:27:57
+  answer: 
+  question_id: "8"
+  id: "7"
+  choice_id: "22"
+  user_id: "5"
+  created_at: 2010-02-16 12:27:57
+answers_019: 
+  updated_at: 2010-02-17 16:47:36
+  answer: 
+  question_id: "6"
+  id: "19"
+  choice_id: "15"
+  user_id: "6"
+  created_at: 2010-02-17 16:47:36
+answers_008: 
+  updated_at: 2010-02-16 12:27:57
+  answer: 
+  question_id: "3"
+  id: "8"
+  choice_id: "1"
+  user_id: "5"
+  created_at: 2010-02-16 12:27:57
+answers_020: 
+  updated_at: 2010-02-17 16:47:36
+  answer: 
+  question_id: "5"
+  id: "20"
+  choice_id: "3"
+  user_id: "6"
+  created_at: 2010-02-17 16:47:36
+answers_009: 
+  updated_at: 2010-02-16 12:27:57
+  answer: 
+  question_id: "6"
+  id: "9"
+  choice_id: "15"
+  user_id: "5"
+  created_at: 2010-02-16 12:27:57
+answers_010: 
+  updated_at: 2010-02-16 12:27:57
+  answer: 
+  question_id: "5"
+  id: "10"
+  choice_id: "3"
+  user_id: "5"
+  created_at: 2010-02-16 12:27:57
+answers_011: 
+  updated_at: 2010-02-17 16:47:36
+  answer: dsafds
+  question_id: "1"
+  id: "11"
+  choice_id: "0"
+  user_id: "6"
+  created_at: 2010-02-17 16:47:36

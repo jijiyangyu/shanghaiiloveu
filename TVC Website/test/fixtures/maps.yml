@@ -1,0 +1,106 @@
+--- 
+maps_014: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "11"
+  field: idea
+  id: "14"
+  table: comment
+  created_at: 2010-02-16 12:19:01
+maps_003: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "2"
+  field: cell
+  id: "3"
+  table: person
+  created_at: 2010-02-16 12:19:01
+maps_015: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "12"
+  field: comment
+  id: "15"
+  table: comment
+  created_at: 2010-02-16 12:19:01
+maps_004: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "2"
+  field: qq
+  id: "4"
+  table: person
+  created_at: 2010-02-16 12:19:01
+maps_005: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "2"
+  field: msn
+  id: "5"
+  table: person
+  created_at: 2010-02-16 12:19:01
+maps_006: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "3"
+  field: sex
+  id: "6"
+  table: person
+  created_at: 2010-02-16 12:19:01
+maps_007: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "4"
+  field: birthday
+  id: "7"
+  table: person
+  created_at: 2010-02-16 12:19:01
+maps_008: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "5"
+  field: constellation
+  id: "8"
+  table: person
+  created_at: 2010-02-16 12:19:01
+maps_009: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "6"
+  field: job
+  id: "9"
+  table: person
+  created_at: 2010-02-16 12:19:01
+maps_010: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "8"
+  field: field
+  id: "10"
+  table: person
+  created_at: 2010-02-16 12:19:01
+maps_011: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "7"
+  field: time
+  id: "11"
+  table: resource
+  created_at: 2010-02-16 12:19:01
+maps_012: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "9"
+  field: resource
+  id: "12"
+  table: resource
+  created_at: 2010-02-16 12:19:01
+maps_001: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "1"
+  field: name
+  id: "1"
+  table: user
+  created_at: 2010-02-16 12:19:01
+maps_013: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "10"
+  field: theme
+  id: "13"
+  table: comment
+  created_at: 2010-02-16 12:19:01
+maps_002: 
+  updated_at: 2010-02-16 12:19:01
+  question_id: "2"
+  field: email
+  id: "2"
+  table: person
+  created_at: 2010-02-16 12:19:01

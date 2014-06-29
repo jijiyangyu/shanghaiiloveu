@@ -1,0 +1,30 @@
+<div class="content_wrap">
+  <div id="content">
+    <div style="height: 512px;" id="sw_content">
+      <div class="sw_sform">
+        <div class="sw_logo">上海,吾爱侬</div>
+        <div class="sw_mbrand"></div>
+        <div class="search_controls">
+          <div style="width: 880px;">
+            <div id="hm_video">
+              <%=render :partial=>"home/video_space"%>
+            </div>
+            <div id="hm_post" onmouseover="this.style.opacity=1;this.filters.alpha.opacity=100;" onmouseout="this.style.opacity=.4;this.filters.alpha.opacity=40;">
+              <h1 <%=show_post(@picture)%>>KDS "上海，吾爱侬"<br><br>阿拉小八腊子额大电影<br><br>2010年，噱头...<br><br>阿拉需要更嘎多 "模子" !<br><br></h1>
+              <div class="sw_b">
+                <input class="sw_qbtn" id="Submit1" name="go" tabindex="0" title="Search" value="" type="submit">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sw_imLd" id="bgDiv"></div>
+      <div id="sh_rdiv">
+        <%=render :partial=>"home/picture_space",:locals => {:picture => @picture}%>
+      </div>
+    </div>
+  </div>
+  <div id="sw_pb">
+    <%=render :partial=>"home/headline_space"%>
+  </div>
+</div>

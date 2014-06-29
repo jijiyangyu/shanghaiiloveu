@@ -1,0 +1,9 @@
+<% @headlines.slice(0,3).each do |h| %>
+  <div>
+    <h3><%=h(h.headline)%></h3><a href="<%=h.address%>"><%=h(h.title)%></a>
+  </div>
+<% end %>
+<div class="ps">
+  <h3><%=h(@headlines.last.headline)%></h3>
+  <a href="<%=@headlines.last.address%>"><%=h(@headlines.last.title)%></a>
+</div>

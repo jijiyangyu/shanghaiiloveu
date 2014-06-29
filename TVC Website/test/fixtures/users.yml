@@ -1,0 +1,55 @@
+--- 
+users_004: 
+  name: fsadfs
+  updated_at: 2010-02-16 12:26:21
+  id: "4"
+  administrative: "0"
+  created_ip: localhost
+  password: ""
+  created_at: 2010-02-16 12:26:21
+  email: 
+users_005: 
+  name: asdfsd
+  updated_at: 2010-02-16 12:27:57
+  id: "5"
+  administrative: "0"
+  created_ip: localhost
+  password: ""
+  created_at: 2010-02-16 12:27:57
+  email: 
+users_006: 
+  name: dsafds
+  updated_at: 2010-02-17 16:47:35
+  id: "6"
+  administrative: "0"
+  created_ip: localhost
+  password: ""
+  created_at: 2010-02-17 16:47:35
+  email: 
+users_001: 
+  name: Admin
+  updated_at: 2010-02-16 12:19:02
+  id: "0"
+  administrative: "1"
+  created_ip: 
+  password: msgp02
+  created_at: 2010-02-16 12:19:02
+  email: zero_china@msn.com
+users_002: 
+  name: fsadfs
+  updated_at: 2010-02-16 12:21:21
+  id: "2"
+  administrative: "0"
+  created_ip: localhost
+  password: ""
+  created_at: 2010-02-16 12:21:21
+  email: 
+users_003: 
+  name: fsadfs
+  updated_at: 2010-02-16 12:26:05
+  id: "3"
+  administrative: "0"
+  created_ip: localhost
+  password: ""
+  created_at: 2010-02-16 12:26:05
+  email: 

@@ -1,0 +1,104 @@
+/* For alert/confirm dialog */
+.dialog {
+	border: 0px solid #2C59AA;
+	position: absolute;
+}
+
+.dialog * {
+	margin: 0px;
+	padding: 0px;
+}
+
+.dialog table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%
+}
+
+.dialog td,th {
+	padding: 0;
+}
+
+.alert_message li{
+    margin-left:10px;
+    padding-bottom: 5px;
+}
+
+.overlay_alert {
+	background-color: #666;
+	filter: alpha(opacity =           60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+
+.alert_content {
+	overflow: no;
+	color: #000;
+	margin: 10px 10px;
+	font-size: 10px;
+	background: #FFF;
+}
+
+.alert_window {
+	background: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+
+.alert_message {
+	font-size: 12px;
+	width: 100%;
+	color: #737373;
+	padding-bottom: 10px;
+}
+
+.alert_buttons {
+	text-align: right;
+	width: 100%;
+}
+
+.alert_btn {
+	height: 25px;
+	width: 70px;
+	BORDER-RIGHT: #ffffff 1px solid;
+	PADDING-RIGHT: 0px;
+	BORDER-TOP: #ffffff 1px solid;
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 12px;
+	BACKGROUND-IMAGE: url(/images/closelabel.gif);
+	BORDER-LEFT: #ffffff 1px solid;
+	COLOR: black;
+	PADDING-TOP: 0px;
+	BORDER-BOTTOM: #ffffff 1px solid
+}
+
+.alert_oklabels {
+	height: 25px;
+	width: 60px;
+	BORDER-RIGHT: #ffffff 1px solid;
+	PADDING-RIGHT: 0px;
+	BORDER-TOP: #ffffff 1px solid;
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 12px;
+	BACKGROUND-IMAGE: url(/images/yes.gif);
+	BORDER-LEFT: #ffffff 1px solid;
+	COLOR: black;
+	PADDING-TOP: 5px;
+	BORDER-BOTTOM: #ffffff 1px solid
+}
+
+.alert_cancellabels {
+	height: 25px;
+	width: 60px;
+	BORDER-RIGHT: #ffffff 1px solid;
+	PADDING-RIGHT: 0px;
+	BORDER-TOP: #ffffff 1px solid;
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 12px;
+	BACKGROUND-IMAGE: url(/images/no.gif);
+	BORDER-LEFT: #ffffff 1px solid;
+	COLOR: black;
+	PADDING-TOP: 5px;
+	BORDER-BOTTOM: #ffffff 1px solid
+}

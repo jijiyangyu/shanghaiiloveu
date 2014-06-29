@@ -1,0 +1,10 @@
+<div class="sw_menu" id="sw_rel">
+  <h2>相关链接</h2><br/>
+  <ul>
+      <% Link.hot_links.each do |link| %>
+    <li>
+      <a href="<%=link.address%>"><%=h(link.title)%></a>
+     </li>
+    <% end %> 
+  </ul>
+</div>

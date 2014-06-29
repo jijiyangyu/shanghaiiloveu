@@ -1,0 +1,15 @@
+<a href="javascript:history.back(-1)">返回</a><br>
+<br>
+<h2>导出交申请表信息</h2><hr>
+<% form_for :admin, :url=>{:action=>"export"} do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <b>开始日期:<br /></b>
+    <%= f.date_select :start_date, :start_year => 2010, :use_month_numbers => false%>
+  </p>
+  <p>
+    <b>结束日期:<br /></b>
+    <%= f.date_select :end_date, :start_year => 2010, :use_month_numbers => false%>
+  </p>
+  <%=submit_tag "导出"%>
+<% end %>

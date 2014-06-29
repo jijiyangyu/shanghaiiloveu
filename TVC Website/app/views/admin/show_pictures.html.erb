@@ -1,0 +1,27 @@
+<%= link_to '编辑', :action=>"edit_pictures",:id=>@picture.id %> |
+<%= link_to '返回', :action=>"list_pictures" %><br>
+<h2>察看首页图片</h2>
+<p>
+  <b>图片标题:</b>
+  <%=h @picture.title %>
+</p>
+<p>
+  <b>所有者:</b>
+  <%=h @picture.owner %>
+</p>
+<p>
+  <b>是否暗图:</b>
+  <%=show_yes(@picture.black_or_white) %>
+</p>
+<p>
+  <b>首页链接地址:</b>
+  <%=auto_link @picture.home_address %>
+</p>
+<p>
+  <b>内页链接地址:</b>
+  <%=auto_link @picture.banner_address %>
+</p>
+<p>
+  <b>备注内容:</b>
+  <%=h @picture.remark %>
+</p>

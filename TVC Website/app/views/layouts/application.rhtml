@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:web="http://schemas.live.com/Web/" xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+      <%= stylesheet_link_tag "brand3mIntl_c","serpAll2Intl_c","window", :media => "all" %>
+      <%= javascript_include_tag "prototype","effects","window", "application"%>
+      <style type="text/css">#sw_im{filter: ;opacity:1;background-image:url(http://farm3.static.flickr.com/2754/4352277465_2dc6b9e5b3_o.jpg)}</style>
+      <title>上海，我爱你<%= " - #{h @page_title}" if @page_title %></title>
+      <link href="http://cn.bing.com/s/wlflag.ico" rel="icon">
+        </head>
+        <body>
+<%= @content_for_layout %>
+<%= link_to_remote "版权所有", :url => {:controller=>"home", :action=>"about_copyright"},
+                    :before=>"if ($('site_video')) $('site_video').hide();"%>
+        </body>
+        </html>

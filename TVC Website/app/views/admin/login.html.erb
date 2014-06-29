@@ -1,0 +1,18 @@
+<%= link_to "返回网站首页", :controller=>"home"%><br>
+<h2>用户登陆</h2><hr>
+<% form_for :home, :url=>{:action=>"login"} do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <b>用户名:<br /></b>
+    <%= f.text_field :name%>
+  </p>
+  <p>
+    <b>密码:<br /></b>
+    <%= f.password_field :password%>
+  </p><p>
+    <b>反垃圾算术题:<br /></b>
+    <img
+      src='<%= url_for(:controller=>"home",:action=>"post_validation")%>' />
+    <%= f.text_field :code, :size=>"8"%></p>
+  <%=submit_tag "登陆"%>
+<% end %>

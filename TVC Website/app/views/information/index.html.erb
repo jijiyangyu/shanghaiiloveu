@@ -1,0 +1,17 @@
+<div id="sw_canvas">
+  <% unless @category %>
+    <%=render :partial=>"home/side_space", :locals => {:category => 1}%>
+  <% else %>
+    <%=render :partial=>"home/side_space", :locals => {:category => @category}%>
+  <%  end %>
+  <div id="sw_main">
+    <div id="content">
+      <div id="results_area">
+        <div id="results_container">
+          <%=render :partial=>"information/post", :locals => {:post => @post}%>
+        </div>
+      </div>
+      <div id="sidebar"><%=render :partial=>"home/adv_space"%></div>
+    </div>
+  </div>
+</div>

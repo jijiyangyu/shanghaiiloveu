@@ -1,0 +1,84 @@
+num_one:
+  id: "1"
+  sequence_num: "1"
+  body: "称呼/昵称"
+  open_or_not: "1"
+  remark: "收集登记者名称,方便联系"
+
+num_two:
+  id: "2"
+  sequence_num: "2"
+  body: "联系方式(手机/电邮/QQ/MSN)"
+  open_or_not: "1"
+  remark: "可以任选其一,但是，一定要可以联系到的，作进一步确认"
+
+num_three:
+  id: "3"
+  sequence_num: "3"
+  body: "性别"
+  open_or_not: "0"
+  remark: "基本信息，之后用于沟通和筛选"
+
+num_four:
+  id: "4"
+  sequence_num: "4"
+  body: "年龄"
+  open_or_not: "1"
+  remark: "收集年龄/工作经验的信息"
+
+num_five:
+  id: "5"
+  sequence_num: "5"
+  body: "星座"
+  open_or_not: "0"
+  remark: "收集星座，统计判断分析性格^_^"
+
+num_six:
+  id: "6"
+  sequence_num: "6"
+  body: "为了方便我们联系安排, 您最近(2010年)的工作情况如何?"
+  open_or_not: "0"
+  remark: "了解参加人员工作性质，时间安排，用以筛选"
+
+num_seven:
+  id: "7"
+  sequence_num: "7"
+  body: "您最近（2010年）的空闲时间，可以投入吗？"
+  open_or_not: "0"
+  remark: "了解参加人员时间安排，用以筛选"
+
+num_eight:
+  id: "8"
+  sequence_num: "8"
+  body: "您最擅长其中的哪一方面?"
+  open_or_not: "0"
+  remark: "根据目前需要罗列了分类信息，特别的，如果有一些特别的资源（赞助/合作/收购），直接用邮件联系"
+
+num_nine:
+  id: "9"
+  sequence_num: "9"
+  body: "除了之前的几个方面，还有哪些方面也擅长。有资源可以提供给制作小组帮助和支持？"
+  open_or_not: "1"
+  remark: "根据之前问题，使用相应的问题，收集资源信息"
+
+num_ten:
+  id: "10"
+  sequence_num: "10"
+  body: "“上海，我爱你”的短片小样有何评价?"
+  open_or_not: "0"
+  remark: "收集观众的评价, 确定今后的片子走向"
+
+num_eleven:
+  id: "11"
+  sequence_num: "11"
+  body: "您心中的“上海，我爱你”将会是怎么样的？"
+  open_or_not: "1"
+  remark: "再次收集一些剧本素材和观众倾向"
+
+num_twelve:
+  id: "12"
+  sequence_num: "12"
+  body: "请提供您对这个活动的寄语和组织的建议"
+  open_or_not: "1"
+  remark: "收集对于参加者的对于活动的建议和问卷的建议"
+

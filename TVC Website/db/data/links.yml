@@ -1,0 +1,20 @@
+Blog:
+  id: "1"
+  title: '"上海，我爱你"小组的博客'
+  address: "http://shanghaiiloveu.blogbus.com/"
+  show_num: "1"
+  remark: "小组的博客"
+
+Douban:
+  id: "2"
+  title: '"上海，我爱你"豆瓣讨论组'
+  address: "http://www.douban.com/group/shanghaiiloveu/"
+  show_num: "2"
+  remark: "制作小组的豆瓣讨论组"
+
+KDS:
+  id: "3"
+  title: 'KDS - 小组的发源地'
+  address: "http://kds.pchome.net/"
+  show_num: "3"
+  remark: "制作小组的发源地"

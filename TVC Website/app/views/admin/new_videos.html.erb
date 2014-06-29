@@ -1,0 +1,55 @@
+<%= link_to '返回', :action=>"list_videos" %><br>
+<h1>建立视频内容</h1>
+<% form_for :admin, @video, :url=>{:action=>"create_videos"} do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <b>序号:<br /></b>
+    <%= f.text_field :show_num %>
+  </p>
+  <p>
+    <b>所有者:<br /></b>
+    <%= f.text_field :owner %>
+  </p>
+  <p>
+    <b>视频标题(10-11个中文字符):<br /></b>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <b>链接地址:<br /></b>
+    <%= f.text_field :src_address %>
+  </p>
+  <p>
+    <b>播放器地址:<br /></b>
+    <%= f.text_field :player_address %>
+  </p>
+  <p>
+    <b>内容地址:<br /></b>
+    <%= f.text_field :video_address %>
+  </p>
+  <p>
+    <b>缩略图地址:<br /></b>
+    <%= f.text_field :image_address %>
+  </p>
+  <p>
+    <b>是否电影正片:<br /></b>
+    是 <%= f.radio_button :film_or_not, 1 , :checked=>true %>
+	&nbsp;否&nbsp; <%= f.radio_button :film_or_not, 0 %> 
+  </p>
+  <p>
+    <b>地址直接播放:<br /></b>
+    是 <%= f.radio_button :src_or_not, 1 , :checked=>true %>
+	&nbsp;否&nbsp; <%= f.radio_button :src_or_not, 0 %> 
+  </p>
+  <p>
+    <b>首页播放视频:<br /></b>
+    是 <%= f.radio_button :home, 1 , :checked=>true %>
+	&nbsp;否&nbsp; <%= f.radio_button :home, 0 %> 
+  </p>
+  <p>
+    <b>备注内容:<br /></b>
+    <%= f.text_area :remark %>
+  </p>
+  <p>
+    <%= f.submit '建立视频' %>
+  </p>
+<% end %>

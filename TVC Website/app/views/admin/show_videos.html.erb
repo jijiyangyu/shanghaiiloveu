@@ -1,0 +1,47 @@
+<%= link_to '编辑', :action=>"edit_videos",:id=>@video.id %> |
+<a href="javascript:history.back(-1)">返回</a><br>
+<h2>察看视频内容</h2>
+<p>
+  <b>序号:</b>
+  <%=h @video.show_num %>
+</p>
+<p>
+  <b>所有者:</b>
+  <%=auto_link @video.owner %>
+</p>
+<p>
+  <b>视频标题:</b>
+  <%=h @video.title %>
+</p>
+<p>
+  <b>链接地址:</b>
+  <%=auto_link @video.src_address %>
+</p>
+<p>
+  <b>播放器地址:</b>
+  <%=auto_link @video.player_address %>
+</p>
+<p>
+  <b>内容地址:</b>
+  <%=auto_link @video.video_address %>
+</p>
+<p>
+  <b>缩略图地址:</b>
+  <%=auto_link @video.image_address %>
+</p>
+<p>
+  <b>是否电影正片:</b>
+  <%=show_yes(@video.film_or_not) %>
+</p>
+<p>
+  <b>地址直接播放:</b>
+  <%=show_yes(@video.src_or_not) %>
+</p>
+<p>
+  <b>首页播放视频:</b>
+  <%=show_yes(@video.home) %>
+</p>
+<p>
+  <b>备注内容:</b>
+  <%=h @video.remark %>
+</p>

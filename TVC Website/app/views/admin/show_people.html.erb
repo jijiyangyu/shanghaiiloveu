@@ -1,0 +1,65 @@
+<a href="javascript:history.back(-1)">返回</a><br>
+<br>
+<h2>察看申请表具体资料</h2>
+<p>
+  创建时间:<%=h @person.created_at %> |
+  <%=show_status @person.status%> |
+  <%if @person.status.to_i==1%>
+    <%=link_to "剔除", :controller=>"admin", :action=>"delete_show_people", :id=>@person.id%> |
+    <%=link_to "确定", :controller=>"admin", :action=>"enroll_show_people", :id=>@person.id%>
+  <%else%>
+    <%=link_to "恢复", :controller=>"admin", :action=>"release_show_people", :id=>@person.id%>
+  <%end%>
+</p>
+<hr>
+<p>
+  <b>称呼:</b>
+  <%=h @person.name %>
+</p>
+<p>
+  <b>性别:</b>
+  <%=show_sex(@person.sex) %>
+</p>
+<p>
+  <b>年龄:</b>
+  <%=Date.today.year - @person.birthday.year %>"岁"
+</p>
+<p>
+  <b>星座:</b>
+  <%=h @person.constellation %>
+</p>
+<p>
+  <b>联系方式:</b><br>
+  电子邮件:<%=h @person.email %><br>
+  手机:<%=h @person.cell %><br>
+  QQ:<%=h @person.qq %><br>
+  MSN:<%=h @person.msn %>
+</p>
+<p>
+  <b>工作情况:</b>
+  <%=h @person.job %>
+</p>
+<p>
+  <b>时间安排:</b>
+  <%=h @person.user.resource.time %>
+</p>
+<p>
+  <b>特长技能:</b>
+  <%=h @person.field %>
+</p>
+<p>
+  <b>资源备注:</b>
+  <%=h @person.user.resource.resource %>
+</p>
+<p>
+  <b>电影评价:</b>
+  <%=h @person.user.comment.theme %>
+</p>
+<p>
+  <b>主题观点:</b>
+  <%=h @person.user.comment.idea %>
+</p>
+<p>
+  <b>活动建议:</b>
+  <%=h @person.user.comment.comment %>
+</p>

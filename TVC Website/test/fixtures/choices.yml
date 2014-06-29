@@ -1,0 +1,293 @@
+--- 
+choices_026: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "5"
+  body: "\xE7\xBD\x91\xE7\xAB\x99\xE8\xAE\xBE\xE8\xAE\xA1/\xE6\x8A\x80\xE6\x9C\xAF\xE5\xBC\x80\xE5\x8F\x91"
+  question_id: "8"
+  remark: people:field
+  id: "26"
+  created_at: 2010-02-16 12:19:01
+choices_015: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "1"
+  body: "\xE5\x9C\xA8\xE6\xA0\xA1\xE7\x9A\x84\xE5\xAD\xA6\xE7\x94\x9F/\xE8\x80\x81\xE5\xB8\x88"
+  question_id: "6"
+  remark: people:job
+  id: "15"
+  created_at: 2010-02-16 12:19:01
+choices_004: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "2"
+  body: !binary |
+    6YeR54mb5bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "4"
+  created_at: 2010-02-16 12:19:01
+choices_027: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "6"
+  body: "\xE7\xAE\xA1\xE7\x90\x86\xE5\x8D\x8F\xE8\xB0\x83/\xE8\xBF\x90\xE8\x90\xA5\xE6\x94\xAF\xE6\x8C\x81"
+  question_id: "8"
+  remark: people:field
+  id: "27"
+  created_at: 2010-02-16 12:19:01
+choices_016: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "2"
+  body: !binary |
+    5pyd5Lmd5pma5LqU5LiK54+t5peP
+
+  question_id: "6"
+  remark: people:job
+  id: "16"
+  created_at: 2010-02-16 12:19:01
+choices_005: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "3"
+  body: !binary |
+    5Y+M5a2Q5bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "5"
+  created_at: 2010-02-16 12:19:01
+choices_028: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "1"
+  body: !binary |
+    5a6M576O
+
+  question_id: "10"
+  remark: comments:theme
+  id: "28"
+  created_at: 2010-02-16 12:19:01
+choices_017: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "3"
+  body: !binary |
+    6ICB5p2/77yM6Ieq55Sx6IGM5Lia6ICF
+
+  question_id: "6"
+  remark: people:job
+  id: "17"
+  created_at: 2010-02-16 12:19:01
+choices_006: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "4"
+  body: !binary |
+    5beo6J+55bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "6"
+  created_at: 2010-02-16 12:19:01
+choices_029: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "2"
+  body: !binary |
+    5bCa5Y+v
+
+  question_id: "10"
+  remark: comments:theme
+  id: "29"
+  created_at: 2010-02-16 12:19:01
+choices_018: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "4"
+  body: !binary |
+    6Zey5Lq677yM5LuA5LmI6YO95LiN5bmy
+
+  question_id: "6"
+  remark: people:job
+  id: "18"
+  created_at: 2010-02-16 12:19:01
+choices_007: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "5"
+  body: !binary |
+    54uu5a2Q5bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "7"
+  created_at: 2010-02-16 12:19:01
+choices_030: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "3"
+  body: !binary |
+    5LiN5oeC
+
+  question_id: "10"
+  remark: comments:theme
+  id: "30"
+  created_at: 2010-02-16 12:19:01
+choices_019: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "1"
+  body: !binary |
+    5b6I56m677yM5Lia5L2Z5pe26Ze06YO95Y+v5Lul6LSh54yu
+
+  question_id: "7"
+  remark: resources:time
+  id: "19"
+  created_at: 2010-02-16 12:19:01
+choices_008: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "6"
+  body: !binary |
+    5aSE5aWz5bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "8"
+  created_at: 2010-02-16 12:19:01
+choices_031: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "4"
+  body: !binary |
+    6IOh5omv
+
+  question_id: "10"
+  remark: comments:theme
+  id: "31"
+  created_at: 2010-02-16 12:19:01
+choices_020: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "2"
+  body: !binary |
+    6K+05LiN5YeG77yM5Yiw5pe25YCZ6ZyA6KaB56Gu6K6k
+
+  question_id: "7"
+  remark: resources:time
+  id: "20"
+  created_at: 2010-02-16 12:19:01
+choices_009: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "7"
+  body: !binary |
+    5aSp56ek5bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "9"
+  created_at: 2010-02-16 12:19:01
+choices_021: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "3"
+  body: !binary |
+    56eB5Lq65Lqk6ZmF57mB5b+Z77yM5rKh5pyJ5aSq5aSa5pe26Ze0
+
+  question_id: "7"
+  remark: resources:time
+  id: "21"
+  created_at: 2010-02-16 12:19:01
+choices_010: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "8"
+  body: !binary |
+    5aSp6J2O5bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "10"
+  created_at: 2010-02-16 12:19:01
+choices_022: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "1"
+  body: "\xE5\x89\xA7\xE6\x9C\xAC\xE4\xBD\x9C\xE5\xAE\xB6/\xE6\x96\x87\xE6\xA1\x88\xE6\x8A\xA2\xE6\x89\x8B"
+  question_id: "8"
+  remark: people:field
+  id: "22"
+  created_at: 2010-02-16 12:19:01
+choices_011: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "9"
+  body: !binary |
+    5bCE5omL5bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "11"
+  created_at: 2010-02-16 12:19:01
+choices_023: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "2"
+  body: "\xE5\xBD\xB1\xE9\x9F\xB3\xE5\x88\xB6\xE4\xBD\x9C/\xE5\xB9\xB3\xE9\x9D\xA2\xE8\xAE\xBE\xE8\xAE\xA1"
+  question_id: "8"
+  remark: people:field
+  id: "23"
+  created_at: 2010-02-16 12:19:01
+choices_012: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "10"
+  body: !binary |
+    5pGp576v5bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "12"
+  created_at: 2010-02-16 12:19:01
+choices_001: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "1"
+  body: "1"
+  question_id: "3"
+  remark: "people:sex:\xE7\x94\xB7"
+  id: "1"
+  created_at: 2010-02-16 12:19:01
+choices_024: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "3"
+  body: "\xE5\xBD\xB1\xE8\xA7\x86\xE8\xA1\xA8\xE6\xBC\x94/\xE7\xBE\x8E\xE5\xB7\xA5\xE5\x8C\x96\xE5\xA6\x86"
+  question_id: "8"
+  remark: people:field
+  id: "24"
+  created_at: 2010-02-16 12:19:01
+choices_013: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "11"
+  body: !binary |
+    5rC055O25bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "13"
+  created_at: 2010-02-16 12:19:01
+choices_002: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "0"
+  body: "0"
+  question_id: "3"
+  remark: "people:sex:\xE5\xA5\xB3"
+  id: "2"
+  created_at: 2010-02-16 12:19:01
+choices_025: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "4"
+  body: "\xE5\xAE\xA3\xE4\xBC\xA0\xE7\xAD\x96\xE5\x88\x92/\xE5\xAA\x92\xE4\xBD\x93\xE5\x85\xAC\xE5\x85\xB3"
+  question_id: "8"
+  remark: people:field
+  id: "25"
+  created_at: 2010-02-16 12:19:01
+choices_014: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "12"
+  body: !binary |
+    5Y+M6bG85bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "14"
+  created_at: 2010-02-16 12:19:01
+choices_003: 
+  updated_at: 2010-02-16 12:19:01
+  choice_num: "1"
+  body: !binary |
+    55m9576K5bqn
+
+  question_id: "5"
+  remark: constellation
+  id: "3"
+  created_at: 2010-02-16 12:19:01

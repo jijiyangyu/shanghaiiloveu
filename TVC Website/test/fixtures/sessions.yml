@@ -1,0 +1,59 @@
+--- 
+sessions_001: 
+  updated_at: 2010-02-16 15:42:52
+  id: "1"
+  sessid: e8c9bcad9b647bbd1be19b7b0c021746
+  created_at: 2010-02-16 12:20:31
+  data: |
+    BAh7BzoQX2NzcmZfdG9rZW4iMWVCL2NQMjBvUVhrcXdrQWhyWk9xRHNGTGUx
+    ZzhwK3ZrRWV1WmJhQXRSVG89IgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+    OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA
+
+sessions_002: 
+  updated_at: 2010-02-17 08:50:00
+  id: "2"
+  sessid: 478137f2b00ac113e43d9ef55d763bbd
+  created_at: 2010-02-17 08:50:00
+  data: |
+    BAh7BjoQX2NzcmZfdG9rZW4iMUFEWmRLdFN5MjFkeUZ1ei9nNjlndnNESXo4
+    OVJuZitKZXlkTU9CZ3gzakk9
+
+sessions_003: 
+  updated_at: 2010-02-17 08:51:09
+  id: "3"
+  sessid: 29985cffda3d2ff1620974a1dd2f91b3
+  created_at: 2010-02-17 08:51:09
+  data: |
+    BAh7BjoQX2NzcmZfdG9rZW4iMTJ3K05hQ3NkQjFDbmhJTjFlNlQzdFE5SklX
+    SmhvQTdONnBqa0ZaNE9hODA9
+
+sessions_004: 
+  updated_at: 2010-02-17 16:47:54
+  id: "4"
+  sessid: 65e7d8083252560a4bd6cc2b50d4afe3
+  created_at: 2010-02-17 08:52:52
+  data: |
+    BAh7BzoQX2NzcmZfdG9rZW4iMTZSOExXcGxJUnBOUVhCWHlYeDJicVAxeUNy
+    SlR4ZUxOT2RlSmZxblA4WjQ9IgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+    OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA
+
+sessions_005: 
+  updated_at: 2010-02-17 14:45:15
+  id: "5"
+  sessid: 37119394450d49e1aa23a7932eedc52b
+  created_at: 2010-02-17 11:02:37
+  data: |
+    BAh7BzoQX2NzcmZfdG9rZW4iMWcyaHl3dnJtOU5wZXQ5ZnQ0TkUxU3IzSGFu
+    NXA2VXp2TXkwdkxmeWkyNWs9IgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+    OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSId6KeG6aKR5YaF5a655oiQ
+    5Yqf6Lef5pawBjoKQHVzZWR7BjsHVA==
+
+sessions_006: 
+  updated_at: 2010-02-18 09:39:56
+  id: "6"
+  sessid: 337aeb2f0ced1ed19fd15ea76d27f4db
+  created_at: 2010-02-18 09:39:56
+  data: |
+    BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+    SGFzaHsABjoKQHVzZWR7AA==
+

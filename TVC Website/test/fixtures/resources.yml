@@ -1,0 +1,46 @@
+--- 
+resources_001: 
+  updated_at: 2010-02-16 12:21:21
+  time: !binary |
+    5b6I56m677yM5Lia5L2Z5pe26Ze06YO95Y+v5Lul6LSh54yu
+
+  resource: ""
+  id: "1"
+  user_id: "2"
+  created_at: 2010-02-16 12:21:21
+resources_002: 
+  updated_at: 2010-02-16 12:26:05
+  time: !binary |
+    5b6I56m677yM5Lia5L2Z5pe26Ze06YO95Y+v5Lul6LSh54yu
+
+  resource: ""
+  id: "2"
+  user_id: "3"
+  created_at: 2010-02-16 12:26:05
+resources_003: 
+  updated_at: 2010-02-16 12:26:21
+  time: !binary |
+    5b6I56m677yM5Lia5L2Z5pe26Ze06YO95Y+v5Lul6LSh54yu
+
+  resource: ""
+  id: "3"
+  user_id: "4"
+  created_at: 2010-02-16 12:26:21
+resources_004: 
+  updated_at: 2010-02-16 12:27:57
+  time: !binary |
+    5b6I56m677yM5Lia5L2Z5pe26Ze06YO95Y+v5Lul6LSh54yu
+
+  resource: ""
+  id: "4"
+  user_id: "5"
+  created_at: 2010-02-16 12:27:57
+resources_005: 
+  updated_at: 2010-02-17 16:47:35
+  time: !binary |
+    5b6I56m677yM5Lia5L2Z5pe26Ze06YO95Y+v5Lul6LSh54yu
+
+  resource: ""
+  id: "5"
+  user_id: "6"
+  created_at: 2010-02-17 16:47:35

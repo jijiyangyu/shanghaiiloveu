@@ -1,0 +1,33 @@
+<%= link_to '返回', :action=>"list_pictures" %><br>
+<h1>建立首页图片</h1>
+<% form_for :admin, @picture, :url=>{:action=>"create_pictures"} do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <b>图片标题:<br /></b>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <b>所有者:<br /></b>
+    <%= f.text_field :owner %>
+  </p>
+    <p>
+    <b>是否暗图:<br /></b>
+    是 <%= f.radio_button :black_or_white, 1 , :checked=>true %>
+	&nbsp;否&nbsp; <%= f.radio_button :black_or_white, 0 %>
+  </p>
+  <p>
+    <b>首页链接地址:<br /></b>
+    <%= f.text_field :home_address %>
+  </p>
+  <p>
+    <b>内页链接地址:<br /></b>
+    <%= f.text_field :banner_address %>
+  </p>
+  <p>
+    <b>备注内容:<br /></b>
+    <%= f.text_area :remark %>
+  </p>
+  <p>
+    <%= f.submit '建立首页图片' %>
+  </p>
+<% end %>

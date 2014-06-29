@@ -1,0 +1,16 @@
+<div id="sw_aside">
+  <div id="sw_nav">
+    <ul>
+      <li class="sw_navA"><em class="sw_nav1"><%=show_category_title category%></em><span><span></span></span></li>
+      <%  if category.to_i==2 %>
+      <li><%=link_to "视频在线观看",:controller=>"video"%></li>
+      <%  elsif category.to_i==3 %>
+      <li><%=link_to "加入申请填写", :controller=>"register"%></li>
+      <%  end %>
+      <%=show_posts category%>
+    </ul>
+  </div>
+  <div id="sc_expPane">
+    <%=render :partial=>"home/link_space"%>
+  </div>
+</div>

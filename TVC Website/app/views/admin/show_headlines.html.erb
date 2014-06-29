@@ -1,0 +1,23 @@
+<%= link_to '编辑', :action=>"edit_headlines",:id=>@headline.id %> |
+<%= link_to '返回', :action=>"list_headlines" %><br>
+<h2>察看头条内容</h2>
+<p>
+  <b>序号:</b>
+  <%=h @headline.show_num %>
+</p>
+<p>
+  <b>头条文字:</b>
+  <%=h @headline.headline %>
+</p>
+<p>
+  <b>链接标题:</b>
+  <%=h @headline.title %>
+</p>
+<p>
+  <b>链接地址:</b>
+  <%=auto_link @headline.address %>
+</p>
+<p>
+  <b>备注内容:</b>
+  <%=h @headline.remark %>
+</p>

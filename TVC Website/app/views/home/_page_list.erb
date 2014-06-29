@@ -1,0 +1,16 @@
+<div class="sb_pag">
+  <%if @pages%>
+    <%unless @pages.page_count ==1%>
+      <h4>分页</h4>
+      <ul>
+        <%if @pages.current.previous%>
+          <li><%= link_to("<<前一页", {:page => @pages.current.previous}, :class=>"sb_pagP" ) %></li>
+        <%end-%>
+        <%= pagination_link(@pages)%>
+        <% if @pages.current.next%>
+          <li><%= link_to("后一页>>", {:page => @pages.current.next}, :class=>"sb_pagN")%></li>
+        <%end-%>
+      </ul>
+    <%end%>
+  <%end%>
+</div>

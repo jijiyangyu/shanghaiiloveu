@@ -1,0 +1,29 @@
+<%= link_to '显示内容', :action=>"show_headlines",:id=>@headline.id %> |
+<%= link_to '返回', :action=>"list_headlines" %><br>
+<h2>修改头条内容</h2>
+<% form_for :admin, @headline, :url=>{:action=>"update_headlines", :id=>@headline.id} do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <b>序号:<br /></b>
+    <%= f.text_field :show_num %>
+  </p>
+  <p>
+    <b>头条文字(7-8个中文字符):<br /></b>
+    <%= f.text_field :headline %>
+  </p>
+  <p>
+    <b>链接标题(10-11个中文字符):<br /></b>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <b>链接地址:<br /></b>
+    <%= f.text_field :address %>
+  </p>
+  <p>
+    <b>备注内容:<br /></b>
+    <%= f.text_area :remark %>
+  </p>
+  <p>
+    <%= f.submit '更新内容' %>
+  </p>
+<% end %>

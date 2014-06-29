@@ -1,0 +1,173 @@
+#content {
+margin:0 0 0 -15px;
+max-width:666px;
+padding:0 264px 0 0;
+}
+#results_area {
+float:left;
+padding-bottom:10px;
+width:100%;
+min-width:620px;
+}
+#results_container {
+padding:0 15px;
+}
+#sidebar {
+float:left;
+margin:0 -264px 0 19px;
+padding:0 15px 0 0;
+width:230px;
+word-wrap:break-word;
+}
+.sc_hl1, .sc_hl1 li {
+display:inline;
+margin:0;
+padding:0;
+}
+.sb_vdl {
+margin-top:0.4em;
+width:100%;
+}
+#results:after, .sb_vdl:after {
+clear:both;
+content:'.';
+display:block;
+height:0;
+visibility:hidden;
+}
+.sb_vdl ul {
+float:left;
+margin:0 1.51em 0 3.11em;
+max-width:38%;
+padding:0;
+}
+.sb_vdl li {
+text-indent:-0.77em;
+}
+.sc_bullet {
+margin:0 0.47em 0 0;
+}
+.sb_ph {
+color:#898994;
+margin:0 0 0.93em;
+text-align:right;
+width: 595px;
+}
+.sb_ph h1 {
+float:left;
+}
+.sb_ph .sc_hl1, .sb_ph .sc_bullet {
+font-size:93%;
+margin:0 0 0 0.47em;
+}
+.sb_ph a {
+color:#898994;
+text-decoration:underline;
+}
+.zh-CN strong {
+color:#CC0033;
+font-weight:normal;
+}
+.zh-CN cite strong {
+color:#568E1A;
+font-weight:bold;
+}
+.sb_alert a {
+font-style:normal;
+}
+#content {
+padding-top:0.4em;
+}
+.ja .sb_meta {
+font-size:90%;
+}
+#results {
+}
+#results_area .sb_pag {
+padding:1.25em 0 1.54em;
+}
+.sb_results li, #results h2, .sc_seemore {
+float:left;
+width:100%;
+}
+.sa_cc, #results h2 div, .sc_seemore a {
+max-width:590px;
+}
+.sb_results li li {
+float:none;
+width:auto;
+}
+#results h2 {
+color:#525051;
+margin:0 0 0.19em;
+}
+.sb_meta a, .sb_meta a:visited, .sb_tsuf a, .sb_tsuf a:visited {
+color:#898994;
+text-decoration:underline;
+}
+.sb_tsuf {
+color:#898994;
+white-space:nowrap;
+}
+.sb_tlst h3, .sb_tlst div {
+display:inline;
+margin-right:1.3em;
+}
+.sb_tlst, .sb_tlst h3 a {
+display:inline-block;
+}
+#results_removed {
+margin:1.15em 0 1.54em;
+width:100%;
+}
+.sa_cpt {
+position:absolute;
+}
+#content .sw_box .sw_t {
+display:none;
+}
+#sb_form2 {
+margin-left:-10px;
+}
+.sb_tlst {
+line-height:160%;
+}
+.sb_results p {
+line-height:140%;
+}
+.sb_results li {
+padding:0 0 1.2em;
+}
+.sb_results ul li {
+margin:0;
+}
+.sc_seemore {
+margin-top:-0.56em;
+padding-bottom:1.37em;
+position:relative;
+}
+.sc_seemore a {
+color:#525051;
+text-decoration:underline;
+}
+.sb_dlsm {
+clear:both;
+margin-left:2.34em;
+padding-top:0.3em;
+}
+.sb_dlsm a {
+color:#525051;
+text-decoration:underline;
+}
+.mktmsg, .dnsmsg, .msg {
+float:left;
+margin:1.54em auto 0.8em;
+width:100%;
+}
+.dnsmsg {
+color:#525051;
+font-size:125%;
+}
+.dnsmsg a {
+text-decoration:underline;
+}

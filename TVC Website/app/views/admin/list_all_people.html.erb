@@ -1,0 +1,34 @@
+<%=render :partial=>"admin/header"%>
+<%=link_to "显示未定", :controller=>"admin", :action=>"index"%> |
+<%=link_to "显示剔除", :controller=>"admin", :action=>"list_delete_people"%> |
+<%=link_to "显示确定", :controller=>"admin", :action=>"list_enroll_people"%> |
+<%=link_to "显示全部", :controller=>"admin", :action=>"list_all_people"%>|
+<%=link_to "下载资料", :controller=>"admin", :action=>"export"%><br>
+<br>
+<table>
+  <tr>
+    <th>称呼</th>
+    <th>性别</th>
+    <th>年龄</th>
+    <th>星座</th>
+    <th>工作情况</th>
+    <th>特长技能</th>
+    <th>创建时间</th>
+    <th>状态</th>
+  </tr>
+
+  <% @people.each do |person| %>
+    <tr>
+      <td><%=h person.name %></td>
+      <td><%=show_sex(person.sex) %></td>
+      <td><%=Date.today.year - person.birthday.year %></td>
+      <td><%=h person.constellation %></td>
+      <td><%=h person.job %></td>
+      <td><%=h person.field %></td>
+      <td><%=h person.created_at %></td>
+      <td><%=show_status person.status%></td>
+    </tr>
+  <% end %>
+</table>
+<br>
+<%=render :partial=>"home/page_list"%>

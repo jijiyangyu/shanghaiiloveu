@@ -1,0 +1,19 @@
+<%= link_to '编辑', :action=>"edit_links",:id=>@link.id %> |
+<%= link_to '返回', :action=>"list_links" %><br>
+<h2>察看链接内容</h2>
+<p>
+  <b>序号:</b>
+  <%=h @link.show_num %>
+</p>
+<p>
+  <b>链接标题:</b>
+  <%=h @link.title %>
+</p>
+<p>
+  <b>链接地址:</b>
+  <%=auto_link @link.address %>
+</p>
+<p>
+  <b>备注内容:</b>
+  <%=h @link.remark %>
+</p>

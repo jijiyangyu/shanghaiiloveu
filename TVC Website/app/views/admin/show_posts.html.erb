@@ -1,0 +1,39 @@
+<%= link_to '编辑', :action=>"edit_posts",:id=>@post.id %> |
+<%= link_to '返回', :action=>"list_posts" %><br>
+<h2>察看文案内容</h2>
+<p>
+  <b>序号:</b>
+  <%=h @post.show_num %>
+</p>
+<p>
+  <b>文案标题:</b>
+  <%=h @post.title %>
+</p>
+<p>
+  <b>文案标题:</b>
+  <%=h @post.subtitle %>
+</p>
+<p>
+  <b>边栏标题:</b>
+  <%=h @post.sidetitle %>
+</p>
+<p>
+  <b>发布者:</b>
+  <%=h @post.owner %>
+</p>
+<p>
+  <b>文案类别:</b>
+  <%=show_category @post.category_id %>
+</p>
+<p>
+  <b>是否发布:</b>
+  <%=show_yes @post.to_post %>
+</p>
+<p>
+  <b>内容概要:</b>
+  <%=h @post.summary %>
+</p>
+<p>
+  <b>内容预览:</b>
+  <%= link_to '预览', :action=>"preview_posts",:id=>@post.id %>
+</p>

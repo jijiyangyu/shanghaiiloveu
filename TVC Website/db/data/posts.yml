@@ -1,0 +1,69 @@
+post_1:
+ id: "1"
+ show_num: "1"
+ title: "西洋镜背后头额故事"
+ subtitle: "关于“上海，上我爱你”电影制作组的发起"
+ sidetitle: "小组发起介绍"
+ owner: "猴子一嘎们"
+ category_id: "1"
+ to_post: "1"
+
+post_2:
+ id: "2"
+ show_num: "2"
+ title: "看看阿拉额名堂劲"
+ subtitle: "“上海，我爱你”电影制作小组现状之一"
+ sidetitle: "小组现状介绍(Vision&People)"
+ owner: "猴子一嘎们"
+ category_id: "1"
+ to_post: "1"
+
+post_3:
+ id: "3"
+ show_num: "3"
+ title: "则则阿拉额台型"
+ subtitle: "“上海，我爱你”电影制作小组现状之二"
+ sidetitle: "小组现状介绍(Value&Mission)"
+ owner: "猴子一嘎们"
+ category_id: "1"
+ to_post: "1"
+
+post_4:
+ id: "4"
+ show_num: "1"
+ title: "册册阿拉额花头劲"
+ subtitle: "关于“上海，上我爱你”短片制作介绍"
+ sidetitle: "短片制作介绍"
+ owner: "猴子一嘎们"
+ category_id: "2"
+ to_post: "1"
+
+post_5:
+ id: "5"
+ show_num: "2"
+ title: "看看有点萨宁"
+ subtitle: "关于“上海，上我爱你”短片制作团队"
+ sidetitle: "制作团队介绍"
+ owner: "猴子一嘎们"
+ category_id: "2"
+ to_post: "1"
+
+post_6:
+ id: "6"
+ show_num: "2"
+ title: "大噶一道组桑活"
+ subtitle: "关于“上海，上我爱你”短片之后的计划"
+ sidetitle: "制作计划介绍"
+ owner: "猴子一嘎们"
+ category_id: "3"
+ to_post: "1"
+
+post_7:
+ id: "7"
+ show_num: "1"
+ title: "来轧一记闹猛"
+ subtitle: "关于“上海，我爱你”电影制作的活动组织"
+ sidetitle: "活动组织介绍"
+ owner: "猴子一嘎们"
+ category_id: "3"
+ to_post: "1"

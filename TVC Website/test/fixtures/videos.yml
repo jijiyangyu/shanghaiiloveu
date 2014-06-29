@@ -1,0 +1,110 @@
+--- 
+videos_002: 
+  src_or_not: "1"
+  film_or_not: "1"
+  updated_at: 2010-02-17 13:56:56
+  title: !binary |
+    5Lit5Zu96Laz55CD6LWi5LqG77yB
+
+  src_address: http://swf.ws.126.net/flvplayer081128/~false~0005_V5U8TFENT~vimg2.ws.126.net/image/snapshot/2010/2/N/U/V5U8TFENU~.swf
+  remark: ""
+  player_address: ""
+  id: "2"
+  owner: "163"
+  show_num: "1"
+  home: "0"
+  image_address: ""
+  video_address: ""
+  created_at: 2010-02-16 12:19:02
+videos_003: 
+  src_or_not: "1"
+  film_or_not: "1"
+  updated_at: 2010-02-17 13:52:20
+  title: "\xE9\xAD\x82\xE4\xB9\x8B\xE5\x90\x88\xE6\x88\x98 Time To Come"
+  src_address: http://player.youku.com/player.php/sid/XMTQ5ODgwODMy/v.swf
+  remark: ""
+  player_address: ""
+  id: "3"
+  owner: Youku
+  show_num: "0"
+  home: "0"
+  image_address: ""
+  video_address: ""
+  created_at: 2010-02-16 13:00:42
+videos_004: 
+  src_or_not: "1"
+  film_or_not: "1"
+  updated_at: 2010-02-17 13:48:31
+  title: "\xE9\xAD\x82\xE4\xB9\x8B\xE5\x90\x88\xE6\x88\x982010 \xE5\xAE\x87\xE5\xAE\x99\xE9\xAA\x91\xE5\xA3\xAB"
+  src_address: http://player.youku.com/player.php/sid/XMTQ5MzEzMjEy/v.swf
+  remark: ""
+  player_address: ""
+  id: "4"
+  owner: Youku
+  show_num: "0"
+  home: "0"
+  image_address: ""
+  video_address: ""
+  created_at: 2010-02-16 13:00:57
+videos_005: 
+  src_or_not: "0"
+  film_or_not: "1"
+  updated_at: 2010-02-17 14:22:37
+  title: "Firefox\xE5\xB9\xBF\xE5\x91\x8A"
+  src_address: ""
+  remark: ""
+  player_address: http://news.mydrivers.com/images/flv_player.swf
+  id: "5"
+  owner: MyDrivers
+  show_num: "3"
+  home: "1"
+  image_address: ""
+  video_address: vcastr_file=/img/flash/20100120/04554696.flv
+  created_at: 2010-02-17 13:56:30
+videos_006: 
+  src_or_not: "1"
+  film_or_not: "1"
+  updated_at: 2010-02-17 15:14:45
+  title: "Alizee\xE6\x91\x87\xE8\x87\x80"
+  src_address: http://player.youku.com/player.php/sid/XMTUwNDA3Mjg4/v.swf
+  remark: ""
+  player_address: ""
+  id: "6"
+  owner: Youku
+  show_num: "2"
+  home: "0"
+  image_address: http://image2.autobild.com.cn/upload/imagecache/4x3-150x113-video/video/thumb/Bao_Feng_Jie_Ping_20091225152904_neo_bak.jpg
+  video_address: ""
+  created_at: 2010-02-17 14:41:40
+videos_007: 
+  src_or_not: "0"
+  film_or_not: "1"
+  updated_at: 2010-02-17 14:52:31
+  title: "\xE6\x96\xB0\xE4\xB8\x80\xE4\xBB\xA3\xE6\x99\xAE\xE9\x94\x90\xE6\x96\xAF\xE5\xAF\xB9\xE6\xAF\x94\xE5\xAE\x9D\xE9\xA9\xAC330D"
+  src_address: ""
+  remark: ""
+  player_address: http://www.autobild.com.cn/sites/all/modules/custom/parse_tag/player.swf
+  id: "7"
+  owner: !binary |
+    5rG96L2m55S75oql572R
+
+  show_num: "2"
+  home: "0"
+  image_address: http://image2.autobild.com.cn/upload/imagecache/4x3-150x113-video/video/thumb/Pu_Rui_Si_Dui_Bi_330D_Guang_Ying__1_0.jpg
+  video_address: file=/upload/video/flv/Prius_330D.flv
+  created_at: 2010-02-17 14:44:41
+videos_001: 
+  src_or_not: "0"
+  film_or_not: "1"
+  updated_at: 2010-02-17 13:53:18
+  title: "Landice\xE8\xB0\x83\xE6\x88\x8F\xE8\xBD\xA6\xE6\xA8\xA1"
+  src_address: ""
+  remark: ""
+  player_address: http://www.autobild.com.cn/sites/all/modules/custom/parse_tag/player.swf
+  id: "1"
+  owner: Landice
+  show_num: "1"
+  home: "0"
+  image_address: ""
+  video_address: file=/upload/video/flv/1.flv
+  created_at: 2010-02-16 12:19:02

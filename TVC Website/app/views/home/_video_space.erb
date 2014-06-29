@@ -1,0 +1,10 @@
+<div id="site_video">
+<% if @video.src_or_not %>
+  <embed  width="480" height="320" src=<%=@video.src_address%> align="middle" quality="high" bgcolor="#ffffff" allowscriptaccess="always" allowfullscreen="true" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash"/>
+  </embed>
+<%else%>
+  <!--<object width="480" height="320" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0"><param name="movie" value="http://www.autobild.com.cn/sites/all/modules/custom/parse_tag/player.swf"><param name="quality" value="high"><param name="FlashVars" value="file=/upload/video/flv/1.flv">-->
+  <embed width="480" height="320" flashvars=<%=@video.video_address%> src=<%=@video.player_address%> quality="high" type="application/x-shockwave-flash" plugspace="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+  <!--</object>-->
+<%end%>
+</div>

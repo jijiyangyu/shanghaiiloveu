@@ -1,0 +1,92 @@
+<br/>
+<div style="width: 600px">
+  <div style="font-size:20px;font-weight:bold;color: #960057;margin: 20px 0px 10px 0px;padding-bottom: 5px; border-bottom: thin solid #960057;">活动概述</div>
+  <p style="text-align:justify;">这是一个“上海，我爱你”电影小组的策划，目前没有资金，没有赞助，是一个自发的，完全靠着小组成员的热情和勇气，构建起的平台：用电影的形式，故事的叙述，留下人们心中关于上海的爱，记录下尽可能多的东西，特别是，那些本土的，即将消失的东西。</p>
+  <p style="text-align:justify;">如果愿意提供资金支持，可以购买我们网站上的广告投放空间，当然，由于空间有限，大额资金的话，请直接邮件和我们联系(<%=mail_to "shanghaiiloveu@hotmail.com","shanghaiiloveu@hotmail.com" %>)，我们接受商业赞助。</p>
+  <p>这个活动的继续，需要更多的模子！</p>
+  <% form_remote_tag :url=>{:controller=> 'register',:action => 'submit_questionnaire'} do%>
+    <% cache 'register', 1.day.from_now do %>
+    <p style="font-size:20px;font-weight:bold;color: #960057;margin: 20px 0px;padding-bottom: 5px; border-bottom: thin solid #960057;">基本联系信息</p>
+    <table width="550" cellpadding="0" cellspacing="0">
+      <tr height="35">
+        <td width="88">&nbsp;称呼/昵称: </td>
+        <td colspan="3"><%= text_field 'person', 'name',:size=>"20"%></td>
+      </tr>
+      <tr height="35">
+        <td colspan="4">&nbsp;联系方式: </td>
+      </tr>
+      <tr height="25">
+        <td>&nbsp;&nbsp;<%= check_box 'cell', 'validated',:onclick=>"enableField('person_cell');" %>手机: </td>
+        <td><%= text_field 'person', 'cell',:size=>"20", :disabled => true%></td>
+        <td>&nbsp;&nbsp;<%= check_box 'email', 'validated',:onclick=>"enableField('person_email');"%>电邮: </td>
+        <td><%= text_field 'person', 'email',:size=>"20", :disabled => true%></td>
+      </tr>
+      <tr height="25">
+        <td>&nbsp;&nbsp;<%= check_box 'qq', 'validated',:onclick=>"enableField('person_qq');"%>QQ: </td>
+        <td><%= text_field 'person', 'qq',:size=>"20", :disabled => true%></td>
+        <td>&nbsp;&nbsp;<%= check_box 'msn', 'validated',:onclick=>"enableField('person_msn');"%>MSN: </td>
+        <td><%= text_field 'person', 'msn',:size=>"20", :disabled => true%></td>
+      </tr>
+      <tr height="8">
+        <td colspan="4"></td>
+      </tr>
+      <tr height="35">
+        <td>&nbsp;选择性别: </td>
+        <td colspan="3">男<%= radio_button 'person', 'sex', 1 , :checked=>true %>
+          女<%= radio_button 'person', 'sex', 0 %></td>
+      </tr>
+      <tr height="35">
+        <td>&nbsp;生年及星座：</td>
+        <td colspan="3"><%= date_select("person", "birthday", :start_year => 2000, :end_year=>1960,:discard_month => true,
+            :discard_day => true)%>
+          <%= select"person", "constellation",["白羊座", "金牛座", "双子座","巨蟹座", "狮子座" ,"处女座",
+            "天秤座","天蝎座","射手座","摩羯座","水瓶座", "双鱼座"]%></td>
+      </tr>
+    </table>
+    <p style="font-size:20px;font-weight:bold;color: #960057;margin: 20px 0px;padding-bottom: 5px; border-bottom: thin solid #960057;">活动参与情况</p>
+    <table width="550" cellpadding="0" cellspacing="0">
+      <tr height="35">
+        <td>&nbsp;为了联系安排, 您最近(2010年)的工作情况如何？</td>
+        <td><%=select 'person', 'job',["在校的学生/老师","朝九晚五上班族","老板，自由职业者","闲人，什么都不干"]%></td>
+      </tr>
+      <tr height="35">
+        <td>&nbsp;您最近（2010年）的空闲时间，可以投入吗？</td>
+        <td><%=select 'resource', 'time',["很空，业余时间都可以贡献", "说不准，到时候需要确认", "私人交际繁忙，没有太多时间"]%></td>
+      </tr>
+      <tr height="35">
+        <td>&nbsp;您最擅长其中的哪一方面？</td>
+        <td><%=select 'person', 'field',
+            ["剧本作家/文案抢手", "影音制作/平面设计", "影视表演/美工化妆",
+            "宣传策划/媒体公关", "网站设计/技术开发", "管理协调/运营支持"]%></td>
+      </tr>
+      <tr height="35">
+        <td colspan="2">&nbsp;除了之前的几个方面，还有哪些方面也擅长。有资源可以提供给制作小组帮助和支持？</td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;<%= observe_field(:person_field,:frequency => 0.5,:update => "resource",:url => {:controller=>"register",:action => "post_resource"})%>
+          <span id='resource'><%=text_area 'resource', 'resource', :style=>"width:500px;height:200px" %></span></td>
+      </tr>
+    </table>
+    <p style="font-size:20px;font-weight:bold;color: #960057;margin: 20px 0px;padding-bottom: 5px; border-bottom: thin solid #960057;">电影短片评价</p>
+    <table width="550" cellpadding="0" cellspacing="0">
+      <tr height="35">
+        <td width="300">&nbsp;“上海，我爱你”的短片小样有何评价？</td>
+        <td><%=select 'comment', 'theme',["完美","尚可","不懂","胡扯"]%></td>
+      </tr>
+      <tr height="35">
+        <td colspan="2">&nbsp;您心中的“上海，我爱你”将会是怎么样的？</td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;<%=text_area 'comment', 'idea', :style=>"width:500px;height:200px" %></td>
+      </tr>
+      <tr height="35">
+        <td colspan="2">&nbsp;请提供您对这个活动的寄语和组织的建议</td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;<%=text_area 'comment', 'comment', :style=>"width:500px;height:200px" %></td>
+      </tr>
+    </table><br/>
+    <%= submit_tag '提交申请' %>（以上收集信息只作“上海，我爱你”电影制组，活动之用，将不用于任何商业用途）
+    <%end%>
+  <% end -%>
+</div>

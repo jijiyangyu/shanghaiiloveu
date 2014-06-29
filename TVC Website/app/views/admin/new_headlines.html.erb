@@ -1,0 +1,28 @@
+<%= link_to '返回', :action=>"list_headlines" %><br>
+<h1>建立头条内容</h1>
+<% form_for :admin, @headline, :url=>{:action=>"create_headlines"} do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <b>序号:<br /></b>
+    <%= f.text_field :show_num %>
+  </p>
+  <p>
+    <b>头条文字(7-8个中文字符):<br /></b>
+    <%= f.text_field :headline %>
+  </p>
+  <p>
+    <b>链接标题(10-11个中文字符):<br /></b>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <b>链接地址:<br /></b>
+    <%= f.text_field :address %>
+  </p>
+  <p>
+    <b>备注内容:<br /></b>
+    <%= f.text_area :remark %>
+  </p>
+  <p>
+    <%= f.submit '建立头条' %>
+  </p>
+<% end %>

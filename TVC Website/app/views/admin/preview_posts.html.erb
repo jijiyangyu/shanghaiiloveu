@@ -1,0 +1,29 @@
+<div id="sw_canvas">
+  <div id="sw_aside">
+    <div id="sw_nav">
+      <ul>
+        <li class="sw_navA"><em class="sw_nav1"><%=show_category @post.category_id%></em><span><span></span></span></li>
+        <li><a><%=h @post.sidetitle%></a></li>
+      </ul>
+    </div>
+    <div id="sc_expPane">
+      <%=render :partial=>"home/link_space"%>
+    </div>
+  </div>
+  <div id="sw_main">
+    <div id="content">
+      <div id="results_area">
+        <div id="results_container">
+          <div class="sb_ph">
+            <h1><strong><%=h @post.title%></strong></h1>
+            <span class="sb_count"><%=h @post.subtitle%></span>
+          </div>
+          <div id="results"><br/>
+            <%=@post.body%>
+          </div>
+        </div>
+      </div>
+      <div id="sidebar"><%=render :partial=>"home/adv_space"%></div>
+    </div>
+  </div>
+</div>

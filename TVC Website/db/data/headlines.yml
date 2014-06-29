@@ -1,0 +1,27 @@
+one:
+ id: "1"
+ headline: "西洋镜背后头额故事"
+ title: "电影制作组的发起"
+ address: "http://zhoumms.3322.org:3000/information"
+ show_num: "1"
+
+two:
+  id: "2"
+  headline: "看看阿拉额名堂劲"
+  title: "电影制作小组现状"
+  address: "http://zhoumms.3322.org:3000/information"
+  show_num: "2"
+
+three:
+  id: "3"
+  headline: "册册阿拉额花头劲"
+  title: "短片小样和之后的制作动态"
+  address: "http://zhoumms.3322.org:3000/information"
+  show_num: "3"
+
+four:
+  id: "4"
+  headline: "来轧一记闹猛"
+  title: '“上海，我爱你”电影制作活动组织详情'
+  address: "http://zhoumms.3322.org:3000/register"
+  show_num: "4"

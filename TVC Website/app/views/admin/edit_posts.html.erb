@@ -1,0 +1,48 @@
+<%= link_to '显示内容', :action=>"show_posts",:id=>@post.id %> |
+<%= link_to '返回', :action=>"list_posts" %><br>
+<h2>修改文案内容</h2>
+<% form_for :admin, @post, :url=>{:action=>"update_posts", :id=>@post.id} do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <b>序号:<br /></b>
+    <%= f.text_field :show_num %>
+  </p>
+  <p>
+    <b>文案标题(5-6个中文字符):<br /></b>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <b>文案副标题(10-11个中文字符):<br /></b>
+    <%= f.text_field :subtitle %>
+  </p>
+  <p>
+    <b>边栏标题(4-5个中文字符):<br /></b>
+    <%= f.text_field :sidetitle %>
+  </p>
+  <p>
+    <b>发布者:<br /></b>
+    <%= f.text_field :owner %>
+  </p>
+  <p>
+    <b>文案类别:<br /></b>
+    <%=f.select :category_id,
+      [["小组介绍",1],["视频资料",2],["活动介绍",3]]%>
+  </p>
+  <p>
+    <b>是否发布:<br /></b>
+    是<%if @post.to_post -%> <%= f.radio_button :to_post, 1 , :checked=>true %>
+      &nbsp;否&nbsp; <%= f.radio_button :to_post, 0 %> <%else -%> <%= f.radio_button :to_post, 1 %>
+      &nbsp;否&nbsp; <%= f.radio_button :to_post, 0, :checked=>true %> <%end -%>
+  </p>
+  <p>
+    <b>内容概要:<br /></b>
+    <%= f.text_area :summary %>
+  </p>
+  <p>
+    <b>文案内容:<br /></b>
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.submit '更新文案' %>
+  </p>
+<% end %>

@@ -1,0 +1,14 @@
+<% @videos.each do |video| %>
+<div style="width:600px">
+  <span>
+    <%= link_to image_tag(show_perview(video)),:controller=>"video",:action=>"showcase",:id=>video.id %>
+  </span>
+  <div style="width:430px; float:right;margin:0px 10px 10px 0px;padding:0px 0px 5px 0px;line-height: 23px">
+    <div style="text-overflow:ellipsis;overflow:hidden;white-space: nowrap;width:350px"><%= link_to h(video.title),:controller=>"video",:action=>"showcase",:id=>video.id %></div>
+    <div style="text-overflow:ellipsis;overflow:hidden;white-space: nowrap;width:425px"><%=h video.remark%></div>
+    <div style="color: #960057;font-weight:bold;text-overflow:ellipsis;overflow:hidden;white-space: nowrap;width:350px"><%=h video.owner%></div>
+    <span style="color: gray"><%=h video.updated_at%></span>
+  </div>
+</div><br/><br/>
+<% end %>
+

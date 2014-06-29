@@ -1,0 +1,24 @@
+<%= link_to '新建链接', :action=>"new_links" %> |
+<%=link_to "站点管理", :controller=>"admin"%> |
+<%=link_to "网站首页", :controller=>"home"%><br>
+<h2>链接内容列表</h2>
+<br>
+<table>
+  <tr>
+    <th>序号</th>
+    <th>链接标题</th>
+    <th>链接地址</th>
+    <th colspan="3">操作</th>
+  </tr>
+
+  <% @links.each do |link| %>
+    <tr>
+      <td><%=h link.show_num %></td>
+      <td><%=h link.title %></td>
+      <td><%=auto_link link.address %></td>
+      <td><%= link_to '显示内容', :action=>"show_links",:id=>link.id %></td>
+      <td><%= link_to '修改内容', :action=>"edit_links",:id=>link.id %></td>
+      <td><%= link_to '删除内容', :action=>"destroy_links",:id=>link.id, :confirm => '确定删除内容吗?' %></td>
+    </tr>
+  <% end %>
+</table>

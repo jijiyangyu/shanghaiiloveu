@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+      <%= stylesheet_link_tag "window","bing", :media => "all" %>
+      <style>
+        #bgDiv{
+          background-image: url(<%=show_home_picture(@picture)%>);
+          background-repeat:no-repeat;
+          position:absolute;
+          top:0;
+          left:0;
+          width:956px;
+          height:512px}
+        .sw_logo{
+          background:url(<%=show_home_logo(@picture)%>) 0 -39px no-repeat;
+          width:200px;
+          height:45px;
+          float:left;
+          margin:-60px 30px 0 0px;
+          _margin: -69px 30px 0 0px;
+          _background-image: none;
+          _height: 85px;
+          _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/k.png', sizingMethod='crop');
+          text-indent:-9em}
+      </style>
+      <%= javascript_include_tag "prototype","effects","window", "application"%>
+      <title>上海，我爱你<%= " - #{h @page_title}" if @page_title %></title>
+      <link href="http://www.bing.com/s/wlflag.ico" rel="icon">
+        <meta content="This is the offical website of Shanghai, I Love You Film." name="description">
+          <meta content="NOODP" name="ROBOTS">
+            </head>
+            <body>
+              <div class="sc_grad"></div>
+              <table class="layout">
+                <tbody>
+                  <tr>
+                    <td class="layout" align="center">
+                      <div id="sw_hdr">
+                        <div class="sw_tb">
+                          <ul class="sc_hl1">
+                            <li><%= link_to "阿拉首页", :controller=>"home"%> | </li>
+                            <li><%= link_to "小组介绍", :controller=>"information"%> | </li>
+                            <li><%= link_to "视频资料", :controller=>"video"%></li>
+                          </ul>
+                          <ul class="sw_right">
+                            <li>
+                              <span class="lStatus">
+                                <%= link_to "上海 , 我爱你", :controller=>"home"%>
+                              </span> |
+                            </li>
+                            <li class="sw_last">
+                              <span>
+                                <%= link_to "加入我们", :controller=>"register"%>
+                              </span>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="sw_tbb"></div>
+                      </div>
+                      <div id="container">
+                        <%= @content_for_layout %>
+                        <div id="sb_foot">
+                          <ul id="sw_footC">
+                            <li><a href="http://shanghaiiloveu.blogbus.com">去“上海，我爱你”电影制作组的博客</a></li>
+                          </ul>
+                          <ul id="sw_footL">
+                            <li>&copy; 2010 - <%=Time.now.strftime("%Y")%>  上海，我爱你
+                              <%= link_to_remote "版权所有",
+                                :url => {:controller=>"home", :action=>"about_copyright"},
+                                :before=>"if ($('site_video')) $('site_video').hide();"%> | </li>
+                            <li><%= link_to_remote "首页图片", 
+                                :url => {:controller=>"home", :action=>"about", :contents=>h(@picture.remark)},
+                                :before=>"Element.hide('site_video')"%> | </li>
+                            <li><a href="http://www.autobild.com.cn/">汽车画报网</a> | </li>
+                            <li><%=mail_to "shanghaiiloveu@hotmail.com", "联系我们", :id=>"sb_feedback" %></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </body>
+
+            </html>

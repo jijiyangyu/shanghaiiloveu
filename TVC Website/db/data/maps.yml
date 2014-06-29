@@ -1,0 +1,90 @@
+num_one:
+  id: "1"
+  table: "user"
+  field: "name"
+  question_id: "1"
+
+num_two:
+  id: "2"
+  table: "person"
+  field: "email"
+  question_id: "2"
+
+num_three:
+  id: "3"
+  table: "person"
+  field: "cell"
+  question_id: "2"
+
+num_four:
+  id: "4"
+  table: "person"
+  field: "qq"
+  question_id: "2"
+
+num_five:
+  id: "5"
+  table: "person"
+  field: "msn"
+  question_id: "2"
+
+num_six:
+  id: "6"
+  table: "person"
+  field: "sex"
+  question_id: "3"
+
+num_seven:
+  id: "7"
+  table: "person"
+  field: "birthday"
+  question_id: "4"
+
+num_eight:
+  id: "8"
+  table: "person"
+  field: "constellation"
+  question_id: "5"
+
+num_nine:
+  id: "9"
+  table: "person"
+  field: "job"
+  question_id: "6"
+
+num_ten:
+  id: "10"
+  table: "person"
+  field: "field"
+  question_id: "8"
+
+num_eleven:
+  id: "11"
+  table: "resource"
+  field: "time"
+  question_id: "7"
+
+num_twelve:
+  id: "12"
+  table: "resource"
+  field: "resource"
+  question_id: "9"
+
+num_13:
+  id: "13"
+  table: "comment"
+  field: "theme"
+  question_id: "10"
+
+num_14:
+  id: "14"
+  table: "comment"
+  field: "idea"
+  question_id: "11"
+
+num_15:
+  id: "15"
+  table: "comment"
+  field: "comment"
+  question_id: "12"
+

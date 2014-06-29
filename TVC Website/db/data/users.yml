@@ -1,0 +1,7 @@
+guest:
+  id: "0"
+  name: Admin
+  email: zero_china@msn.com
+  password: msgp02
+  administrative: "1"
+

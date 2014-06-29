@@ -1,0 +1,217 @@
+num_one:
+  id: "1"
+  question_id: "3"
+  choice_num: "1"
+  body: "1"
+  remark: "people:sex:男"
+
+num_two:
+  id: "2"
+  question_id: "3"
+  choice_num: "0"
+  body: "0"
+  remark: "people:sex:女"
+
+num_three:
+  id: "3"
+  question_id: "5"
+  choice_num: "1"
+  body: "白羊座"
+  remark: "constellation"
+
+num_four:
+  id: "4"
+  question_id: "5"
+  choice_num: "2"
+  body: "金牛座"
+  remark: "constellation"
+
+num_five:
+  id: "5"
+  question_id: "5"
+  choice_num: "3"
+  body: "双子座"
+  remark: "constellation"
+
+num_six:
+  id: "6"
+  question_id: "5"
+  choice_num: "4"
+  body: "巨蟹座"
+  remark: "constellation"
+
+num_seven:
+  id: "7"
+  question_id: "5"
+  choice_num: "5"
+  body: "狮子座"
+  remark: "constellation"
+
+num_eight:
+  id: "8"
+  question_id: "5"
+  choice_num: "6"
+  body: "处女座"
+  remark: "constellation"
+  
+num_nine:
+  id: "9"
+  question_id: "5"
+  choice_num: "7"
+  body: "天秤座"
+  remark: "constellation"
+
+num_ten:
+  id: "10"
+  question_id: "5"
+  choice_num: "8"
+  body: "天蝎座"
+  remark: "constellation"
+
+num_eleven:
+  id: "11"
+  question_id: "5"
+  choice_num: "9"
+  body: "射手座"
+  remark: "constellation"
+
+num_twelve:
+  id: "12"
+  question_id: "5"
+  choice_num: "10"
+  body: "摩羯座"
+  remark: "constellation"
+
+num_thriteen:
+  id: "13"
+  question_id: "5"
+  choice_num: "11"
+  body: "水瓶座"
+  remark: "constellation"
+
+num_fourteen:
+  id: "14"
+  question_id: "5"
+  choice_num: "12"
+  body: "双鱼座"
+  remark: "constellation"
+
+num_fifteen:
+  id: "15"
+  question_id: "6"
+  choice_num: "1"
+  body: "在校的学生/老师"
+  remark: "people:job"
+
+num_sixteen:
+  id: "16"
+  question_id: "6"
+  choice_num: "2"
+  body: "朝九晚五上班族"
+  remark: "people:job"
+
+num_seventeen:
+  id: "17"
+  question_id: "6"
+  choice_num: "3"
+  body: "老板，自由职业者"
+  remark: "people:job"
+
+num_eighteen:
+  id: "18"
+  question_id: "6"
+  choice_num: "4"
+  body: "闲人，什么都不干"
+  remark: "people:job"
+
+num_nineteen:
+  id: "19"
+  question_id: "7"
+  choice_num: "1"
+  body: "很空，业余时间都可以贡献"
+  remark: "resources:time"
+
+num_20:
+  id: "20"
+  question_id: "7"
+  choice_num: "2"
+  body: "说不准，到时候需要确认"
+  remark: "resources:time"
+
+num_21:
+  id: "21"
+  question_id: "7"
+  choice_num: "3"
+  body: "私人交际繁忙，没有太多时间"
+  remark: "resources:time"
+
+num_22:
+  id: "22"
+  question_id: "8"
+  choice_num: "1"
+  body: "剧本作家/文案抢手"
+  remark: "people:field"
+
+num_23:
+  id: "23"
+  question_id: "8"
+  choice_num: "2"
+  body: "影音制作/平面设计"
+  remark: "people:field"
+
+num_24:
+  id: "24"
+  question_id: "8"
+  choice_num: "3"
+  body: "影视表演/美工化妆"
+  remark: "people:field"
+
+num_25:
+  id: "25"
+  question_id: "8"
+  choice_num: "4"
+  body: "宣传策划/媒体公关"
+  remark: "people:field"
+
+num_26:
+  id: "26"
+  question_id: "8"
+  choice_num: "5"
+  body: "网站设计/技术开发"
+  remark: "people:field"
+
+num_27:
+  id: "27"
+  question_id: "8"
+  choice_num: "6"
+  body: "管理协调/运营支持"
+  remark: "people:field"
+
+num_28:
+  id: "28"
+  question_id: "10"
+  choice_num: "1"
+  body: "完美"
+  remark: "comments:theme"
+
+num_29:
+  id: "29"
+  question_id: "10"
+  choice_num: "2"
+  body: "尚可"
+  remark: "comments:theme"
+
+num_30:
+  id: "30"
+  question_id: "10"
+  choice_num: "3"
+  body: "不懂"
+  remark: "comments:theme"
+
+num_31:
+  id: "31"
+  question_id: "10"
+  choice_num: "4"
+  body: "胡扯"
+  remark: "comments:theme"
+
